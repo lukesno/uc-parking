@@ -1,16 +1,3 @@
-{
-  "images" : [
-    {
-      "idiom" : "universal",
-      "filename" : "volume_on_btn.pdf"
-    }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "original",
-    "preserves-vector-representation" : true
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a48ed03736b3c7d6b01c60276e4d96dc8236c6fa8809e13904abb8666c992148
+size 277

@@ -1,16 +1,3 @@
-import Foundation
-
-extension UIStackView {
-    convenience init(orientation: NSLayoutConstraint.Axis, alignment: UIStackView.Alignment? = nil, distribution: UIStackView.Distribution? = nil, spacing: CGFloat? = nil, autoLayout: Bool = false) {
-        self.init(frame: .zero)
-        axis = orientation
-        if let alignment = alignment { self.alignment = alignment }
-        if let distribution = distribution { self.distribution = distribution }
-        if let spacing = spacing { self.spacing = spacing }
-        if (autoLayout) { translatesAutoresizingMaskIntoConstraints = false }
-    }
-    
-    func addArrangedSubviews(_ views: [UIView]) {
-        views.forEach(addArrangedSubview(_:))
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7c23daa5c725f3367836e26aecbdf0c545e808c3fa13701253b35e31f7e6354
+size 703

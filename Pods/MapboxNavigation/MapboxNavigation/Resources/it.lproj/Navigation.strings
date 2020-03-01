@@ -1,9 +1,3 @@
-﻿
-/* Class = "UIButton"; normalTitle = "Resume"; ObjectID = "5HY-QD-dBq"; */
-"5HY-QD-dBq.normalTitle" = "Riprendi";
-
-/* Class = "UILabel"; text = "Rerouting"; ObjectID = "bUX-dR-1V6"; */
-"bUX-dR-1V6.text" = "Ricalcolo";
-
-/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "l2B-fb-Dkb"; */
-"l2B-fb-Dkb.normalTitle" = "Annulla";
+version https://git-lfs.github.com/spec/v1
+oid sha256:237f0cb22a00712b6d13b5ff6649a9669ea8ae0ce49c650a47c44519a92d94f2
+size 336

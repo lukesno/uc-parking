@@ -1,26 +1,3 @@
-import Foundation
-
-/**
-  Feedback Model Object for End Of Route Experience.
- */
-@objc open class EndOfRouteFeedback: NSObject {
-    /**
-     Rating: The user's rating for the route. Normalized between 0 and 100.
-    */
-    let rating: Int?
-    
-    /**
-     Comment: Any comments that the user had about the route.
-    */
-    let comment: String?
-    
-    @nonobjc public init(rating: Int? = nil, comment: String? = nil) {
-        self.rating = rating
-        self.comment = comment
-        super.init()
-    }
-    @objc public convenience init(rating ratingNumber: NSNumber?, comment: String?) {
-        let rating = ratingNumber?.intValue
-        self.init(rating: rating, comment: comment)
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:038ef79222e0681c547301568598d7010bb4d4dcd32453ac3f100e82cca27708
+size 700

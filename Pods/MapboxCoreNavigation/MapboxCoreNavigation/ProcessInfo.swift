@@ -1,24 +1,3 @@
-#if os(iOS) || os(tvOS)
-    import UIKit
-#elseif os(watchOS)
-    import WatchKit
-#endif
-
-extension ProcessInfo {
-    static var systemName: String {
-        #if os(iOS) || os(tvOS)
-            return UIDevice.current.systemName
-        #elseif os(watchOS)
-            return WKInterfaceDevice.current.systemName
-        #elseif os(OSX)
-            return "macOS"
-        #else
-            return "unknown"
-        #endif
-    }
-    
-    static var systemVersion: String {
-        let versionObject = ProcessInfo().operatingSystemVersion
-        return "\(versionObject.majorVersion).\(versionObject.minorVersion).\(versionObject.patchVersion)"
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:729c092e8f1884166a870c81a612c5b8a261e5c4a0a514d353ff362de113fcfc
+size 651

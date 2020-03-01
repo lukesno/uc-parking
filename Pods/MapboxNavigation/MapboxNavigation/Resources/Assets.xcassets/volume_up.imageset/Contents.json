@@ -1,20 +1,3 @@
-{
-  "images" : [
-    {
-      "idiom" : "universal",
-      "filename" : "volume_up.pdf",
-      "language-direction" : "left-to-right"
-    },
-    {
-      "idiom" : "universal",
-      "language-direction" : "right-to-left"
-    }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:69500402a3fa91cc1b9504834f5b319ebd3f727e909db1a92e78dc27f4a52480
+size 360

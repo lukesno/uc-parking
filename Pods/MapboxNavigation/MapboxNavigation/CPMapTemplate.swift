@@ -1,36 +1,3 @@
-import Foundation
-import MapboxDirections
-#if canImport(CarPlay)
-import CarPlay
-
-@available(iOS 12.0, *)
-extension CLLocationDirection {
-    init?(panDirection: CPMapTemplate.PanDirection) {
-        var horizontalBias: Double? = nil
-        if panDirection.contains(.right) {
-            horizontalBias = 90
-        } else if panDirection.contains(.left) {
-            horizontalBias = -90
-        }
-        
-        var heading: CLLocationDirection
-        if panDirection.contains(.up) {
-            heading = 0
-            if let horizontalHeading = horizontalBias {
-                heading += horizontalHeading / 2
-            }
-        } else if panDirection.contains(.down) {
-            heading = 180
-            if let horizontalHeading = horizontalBias {
-                heading -= horizontalHeading / 2
-            }
-        } else if let horizontalHeading = horizontalBias {
-            heading = horizontalHeading
-        } else {
-            return nil
-        }
-        self = heading.wrap(min: 0, max: 360)
-    }
-}
-#endif
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bb8d33d44027343908b961d48b45cfc391e5f217998e86689a6f22d0b6c70a5
+size 1038

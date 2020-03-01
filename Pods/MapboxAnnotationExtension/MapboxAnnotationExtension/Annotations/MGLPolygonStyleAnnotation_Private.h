@@ -1,17 +1,3 @@
-#import "MGLPolygonStyleAnnotation.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-FOUNDATION_EXPORT NSString *const MGLPropertyPolygonOpacity;
-FOUNDATION_EXPORT NSString *const MGLPropertyPolygonColor;
-FOUNDATION_EXPORT NSString *const MGLPropertyPolygonOutlineColor;
-FOUNDATION_EXPORT NSString *const MGLPropertyPolygonPattern;
-
-@interface MGLPolygonStyleAnnotation (Private)
-
-@property (nonatomic, strong) NSMutableDictionary<NSString *, id> *attributes;
-
-@end
-
-NS_ASSUME_NONNULL_END
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:49de51640834a7ed88b0ecda2636231c703abef88b80af148856ac87268da6a8
+size 469

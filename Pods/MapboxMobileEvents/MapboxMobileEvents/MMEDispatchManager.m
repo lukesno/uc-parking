@@ -1,10 +1,3 @@
-#import "MMEDispatchManager.h"
-
-@implementation MMEDispatchManager
-
-- (void)scheduleBlock:(void(^)(void))block afterDelay:(NSTimeInterval)delay {
-    dispatch_time_t dispatchTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delay * NSEC_PER_SEC));
-    dispatch_after(dispatchTime, dispatch_get_main_queue(), block);
-}
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:6fa71af6550494a3aff17838bdef584efa3b1d901ebf14e2646393f6383e72fb
+size 324

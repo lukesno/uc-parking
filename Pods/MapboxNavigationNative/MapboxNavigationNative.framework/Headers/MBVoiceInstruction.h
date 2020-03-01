@@ -1,15 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@interface MBVoiceInstruction : NSObject
-
-- (nonnull instancetype)initWithSsmlAnnouncement:(nonnull NSString *)ssmlAnnouncement
-                                    announcement:(nonnull NSString *)announcement
-                           remainingStepDistance:(float)remainingStepDistance
-                                           index:(uint32_t)index;
-
-@property (nonatomic, readonly, nonnull, copy) NSString *ssmlAnnouncement;
-@property (nonatomic, readonly, nonnull, copy) NSString *announcement;
-@property (nonatomic, readonly) float remainingStepDistance;
-@property (nonatomic, readonly) uint32_t index;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:370d343d3a88718fb659729c39eced09518633d30e5693634b048aec3a5af5b3
+size 651

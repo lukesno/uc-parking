@@ -1,19 +1,3 @@
-#import <Foundation/Foundation.h>
-#import <CoreLocation/CoreLocation.h>
-
-#define MGL_EXPORT __attribute__((visibility ("default")))
-
-@interface MMEEventsConfiguration : NSObject
-
-@property (nonatomic) NSUInteger eventFlushCountThreshold;
-@property (nonatomic) NSUInteger eventFlushSecondsThreshold;
-@property (nonatomic) NSTimeInterval initializationDelay;
-@property (nonatomic) NSTimeInterval instanceIdentifierRotationTimeInterval;
-@property (nonatomic) NSTimeInterval configurationRotationTimeInterval;
-@property (nonatomic) CLLocationDistance locationManagerHibernationRadius;
-@property (nonatomic) NSArray *blacklist;
-
-+ (instancetype)configuration;
-+ (instancetype)configurationFromData:(NSData *)data;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3103f6d83935c2c418a12d20e2b3fca93099660a13b58bf39a0f7116319efc8
+size 715

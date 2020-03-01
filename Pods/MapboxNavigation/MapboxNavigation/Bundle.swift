@@ -1,20 +1,3 @@
-import Foundation
-
-extension Bundle {
-    
-    class var mapboxNavigation: Bundle {
-        get { return Bundle(for: NavigationViewController.self) }
-    }
-    
-    func image(named: String) -> UIImage? {
-        return UIImage(named: named, in: self, compatibleWith: nil)
-    }
-    
-    var microphoneUsageDescription: String? {
-        get {
-            let para = "NSMicrophoneUsageDescription"
-            let key = "Privacy - Microphone Usage Description"
-            return object(forInfoDictionaryKey: para) as? String ?? object(forInfoDictionaryKey: key) as? String
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e847eeddca463b8ac6a47f9e617f10ca7eba81abc028c8f58653abe9b31986ef
+size 592

@@ -1,15 +1,3 @@
-import Foundation
-
-extension Date {
-    var ISO8601: String {
-        return Date.ISO8601Formatter.string(from: self)
-    }
-
-    static let ISO8601Formatter: DateFormatter = {
-        let formatter = DateFormatter()
-        formatter.locale = Locale(identifier: "en_US_POSIX")
-        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
-        formatter.timeZone = TimeZone(secondsFromGMT: 0)
-        return formatter
-    }()
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:03943dc94d90a402a0e283e7b4ba090ee9e16cba94e7c0afd46994372fe3ade7
+size 429

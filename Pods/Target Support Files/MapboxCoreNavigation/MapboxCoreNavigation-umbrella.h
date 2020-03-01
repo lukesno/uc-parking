@@ -1,19 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "MapboxCoreNavigation.h"
-#import "MBNavigationSettings.h"
-#import "MBRouteController.h"
-
-FOUNDATION_EXPORT double MapboxCoreNavigationVersionNumber;
-FOUNDATION_EXPORT const unsigned char MapboxCoreNavigationVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:593db772dbfd3eb4939c0846796b89ae82f91ea11afa41026db0215e2bed9e1d
+size 428

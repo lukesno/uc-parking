@@ -1,25 +1,3 @@
-import UIKit
-
-
-extension UIViewController {
-
-    func topMostViewController() -> UIViewController? {
-        return topViewController(controller: self)
-    }
-    
-    func topViewController(controller: UIViewController? = nil) -> UIViewController? {
-        if let navigationController = controller as? UINavigationController {
-            return topViewController(controller: navigationController.visibleViewController)
-        }
-        if let tabController = controller as? UITabBarController {
-            if let selected = tabController.selectedViewController {
-                return topViewController(controller: selected)
-            }
-        }
-        if let presented = controller?.presentedViewController {
-            return topViewController(controller: presented)
-        }
-        return controller
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:45a11601179f99226330d998d76c86aaa1dbea90c565ed52e1f08e007460f25f
+size 824

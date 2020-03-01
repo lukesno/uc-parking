@@ -1,6 +1,3 @@
-
-/* Class = "UILabel"; text = "Rerouting…"; ObjectID = "UpZ-gr-OKM"; */
-"UpZ-gr-OKM.text" = "Retraçando rota...";
-
-/* Class = "UILabel"; text = "Recording Audio"; ObjectID = "xTH-eK-F5H"; */
-"xTH-eK-F5H.text" = "Gravando Áudio";
+version https://git-lfs.github.com/spec/v1
+oid sha256:e051303f299fe9e1dfc8f4a062568e85589b4f7d5c5e8453343b25f20a3cf447
+size 233

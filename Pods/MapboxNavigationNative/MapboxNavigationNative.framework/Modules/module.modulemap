@@ -1,6 +1,3 @@
-framework module MapboxNavigationNative {
-  umbrella header "MapboxNavigationNative.h"
-
-  export *
-  module * { export * }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e7bc71d587bebbc4e53fdc6760ea1c8b415f3fc6170ae2aef6b2d029fce72f42
+size 125

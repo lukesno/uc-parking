@@ -1,16 +1,3 @@
-/// :nodoc:
-struct InstructionsCardConstants {
-    static let highlightDistance: CLLocationDistance = 152.4 // 500 ft
-    
-    static let primaryLabelWidth: CGFloat = 170.0
-    
-    static let primaryLabelLeadingPadding: CGFloat = 14.0
-    
-    static let secondaryLabelWidth: CGFloat = 170.0
-    
-    static let highlightAnimationDuration: TimeInterval = 0.2
-    
-    static let highlightedBackgroundAlphaComponent: CGFloat = 0.90
-    
-    static let backgroundColorAlphaComponent: CGFloat = 0.90
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b781fae1780eda3ee62cf40938886821a3ebcae1212919d81ba0db5e7746bdab
+size 500

@@ -1,16 +1,3 @@
-/// :nodoc:
-enum CardFont: String {
-    case regular
-    case bold
-    
-    static func create(_ type: CardFont, with size: CGFloat) -> UIFont! {
-        let font = type == .bold ? UIFont.boldSystemFont(ofSize: size) : UIFont.systemFont(ofSize: size)
-        return font.adjustedFont
-    }
-}
-
-/// :nodoc:
-struct CardFontType {
-    static let regular: String = "FontSystem-Regular"
-    static let bold: String =  "FontSystem-Bold"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d468469dbcc85b918e63d67678b68298e60c6a9a030d8624dbdbc3fa0b5b233
+size 432

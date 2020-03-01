@@ -1,15 +1,3 @@
-{
-  "images" : [
-    {
-      "idiom" : "universal",
-      "filename" : "feedback_confusing.pdf"
-    }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "properties" : {
-    "preserves-vector-representation" : true
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd910a168e8d57988067353fe6a87f634d3dbb427227103215016a07dbe13970
+size 236

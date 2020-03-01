@@ -1,14 +1,3 @@
-import Foundation
-import UIKit
-
-extension UIGestureRecognizer {
-    var point: CGPoint? {
-        guard let view = view else { return nil }
-        return location(in: view)
-    }
-    
-    func requireFailure(of gestures: [UIGestureRecognizer]?) {
-        guard let gestures = gestures else { return }
-        gestures.forEach(self.require(toFail:))
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9a026dd4146fe7b2d77d20beb2f314a3d82178e83ed2fc5d7d56fc6fcfe3402
+size 358

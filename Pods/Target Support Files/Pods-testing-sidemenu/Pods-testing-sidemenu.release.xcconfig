@@ -1,12 +1,3 @@
-ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MapboxAnnotationExtension" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxCoreNavigation" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxDirections.swift" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxMobileEvents" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxNavigation" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxSpeech" "${PODS_CONFIGURATION_BUILD_DIR}/Polyline" "${PODS_CONFIGURATION_BUILD_DIR}/SideMenu" "${PODS_CONFIGURATION_BUILD_DIR}/Solar" "${PODS_CONFIGURATION_BUILD_DIR}/Turf" "${PODS_ROOT}/Mapbox-iOS-SDK/dynamic" "${PODS_ROOT}/MapboxNavigationNative"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/MapboxAnnotationExtension/MapboxAnnotationExtension.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxCoreNavigation/MapboxCoreNavigation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxDirections.swift/MapboxDirections.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxNavigation/MapboxNavigation.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MapboxSpeech/MapboxSpeech.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Polyline/Polyline.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SideMenu/SideMenu.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Solar/Solar.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Turf/Turf.framework/Headers"
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -l"c++" -l"z" -framework "CoreLocation" -framework "Mapbox" -framework "MapboxAnnotationExtension" -framework "MapboxCoreNavigation" -framework "MapboxDirections" -framework "MapboxMobileEvents" -framework "MapboxNavigation" -framework "MapboxNavigationNative" -framework "MapboxSpeech" -framework "Polyline" -framework "SideMenu" -framework "Solar" -framework "Turf"
-OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
-PODS_BUILD_DIR = ${BUILD_DIR}
-PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
-PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
-PODS_ROOT = ${SRCROOT}/Pods
-USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
+version https://git-lfs.github.com/spec/v1
+oid sha256:d40eeb1cd64f764d9cb5cef45714a465baf04d467d6644c4346e3098c5a523c9
+size 2323

@@ -1,21 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@interface MBBannerComponent : NSObject
-
-- (nonnull instancetype)initWithType:(nonnull NSString *)type
-                                text:(nonnull NSString *)text
-                                abbr:(nullable NSString *)abbr
-                        abbrPriority:(nullable NSNumber *)abbrPriority
-                        imageBaseurl:(nullable NSString *)imageBaseurl
-                              active:(nullable NSNumber *)active
-                          directions:(nullable NSArray<NSString *> *)directions;
-
-@property (nonatomic, readonly, nonnull, copy) NSString *type;
-@property (nonatomic, readonly, nonnull, copy) NSString *text;
-@property (nonatomic, readonly, nullable, copy) NSString *abbr;
-@property (nonatomic, readonly, nullable) NSNumber *abbrPriority;
-@property (nonatomic, readonly, nullable, copy) NSString *imageBaseurl;
-@property (nonatomic, readonly, nullable) NSNumber *active;
-@property (nonatomic, readonly, nullable, copy) NSArray<NSString *> *directions;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a20a19ec76f233aee51a5d6df98f86967cf41c2f3695f76bb74d4d4a7613f71
+size 1027

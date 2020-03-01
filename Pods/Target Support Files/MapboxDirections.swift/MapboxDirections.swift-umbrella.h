@@ -1,22 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "MapboxDirections.h"
-#import "CMapboxDirections.h"
-#import "MBAttribute.h"
-#import "MBLaneIndication.h"
-#import "MBRoadClasses.h"
-#import "MBRouteOptions.h"
-
-FOUNDATION_EXPORT double MapboxDirectionsVersionNumber;
-FOUNDATION_EXPORT const unsigned char MapboxDirectionsVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:74b105bf87a9e2fc9cfb2b5a1c8abd5d96eaafc403aff5c96496a9f0be23cdcb
+size 489

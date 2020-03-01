@@ -1,16 +1,3 @@
-import Foundation
-
-extension Dictionary where Key == Int, Value: NSExpression {
-    /**
-     Returns a copy of the stop dictionary with each value multiplied by the given factor.
-     */
-    public func multiplied(by factor: Double) -> Dictionary {
-        var newCameraStop: [Int: NSExpression] = [:]
-        for stop in self {
-            let currentValue = stop.value.constantValue as! Double
-            let newValue =  currentValue * factor
-            newCameraStop[stop.key] = NSExpression(forConstantValue: newValue)
-        }
-        return newCameraStop as! Dictionary<Key, Value>
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:68ec5593efeb7a6e86e9191863c70ad65b3e4796649779e8a3a00b73e6f3c3c2
+size 599

@@ -1,15 +1,3 @@
-{
-  "images" : [
-    {
-      "idiom" : "universal",
-      "filename" : "feedback_other.pdf"
-    }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:117577b46e17f7ee299e5aa779edf5c3d7bb42f17a02cafbae6cfad3c9b994b3
+size 232

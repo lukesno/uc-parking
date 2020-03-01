@@ -1,35 +1,3 @@
-#import "MMEUniqueIdentifier.h"
-
-@interface MMEUniqueIdentifier ()
-
-@property (nonatomic) NSDate *instanceIDRotationDate;
-@property (nonatomic) NSString *instanceID;
-
-@end
-
-@implementation MMEUniqueIdentifier
-
-- (instancetype)init {
-    NSAssert(false, @"Use `-[MMEUniqueIdentifier initWithTimeInterval:]` to create instances of this class.");
-    return nil;
-}
-
-- (instancetype)initWithTimeInterval:(NSTimeInterval)timeInterval {
-    if (self = [super init]) {
-        _timeInterval = timeInterval;
-    }
-    return self;
-}
-
-- (NSString *)rollingInstanceIdentifer {
-    if (self.instanceIDRotationDate && [[NSDate date] timeIntervalSinceDate:self.instanceIDRotationDate] >= 0) {
-        _instanceID = nil;
-    }
-    if (!_instanceID) {
-        _instanceID = [[NSUUID UUID] UUIDString];
-        self.instanceIDRotationDate = [[NSDate date] dateByAddingTimeInterval:self.timeInterval];
-    }
-    return _instanceID;
-}
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:008a552bcdd1a2190a679c20d874f8e250b2373798ea9ec1eb15aeeea4ccd935
+size 923

@@ -1,36 +1,3 @@
-#import "MMEConfigurator.h"
-#import "MMEAPIClient.h"
-
-@interface MMEConfigurator ()
-
-@property (nonatomic) NSDate *configurationRotationDate;
-@property (nonatomic) MMEEventsConfiguration *configuration;
-
-@end
-
-@implementation MMEConfigurator
-
-- (instancetype)initWithTimeInterval:(NSTimeInterval)timeInterval {
-    if (self = [super init]) {
-        _timeInterval = timeInterval;
-    }
-    return self;
-}
-
-- (void)updateConfigurationFromAPIClient:(MMEAPIClient *)apiClient {
-    if (self.configurationRotationDate && [[NSDate date] timeIntervalSinceDate:self.configurationRotationDate] >= 0) {
-        self.configuration = nil;
-    }
-    if (!self.configuration) {
-        [apiClient getConfigurationWithCompletionHandler:^(NSError * _Nullable error, NSData * _Nullable data) {
-            if (!error) {
-                self.configuration = [MMEEventsConfiguration configurationFromData:data];
-                
-                [self.delegate configurator:self didUpdate:self.configuration];
-                self.configurationRotationDate = [[NSDate date] dateByAddingTimeInterval:self.timeInterval];
-            }
-        }];
-    }
-}
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9cb17507afcd145786aebff4eb7fdb26d9e1ac16fac46528945ccb5cd0b7669
+size 1140

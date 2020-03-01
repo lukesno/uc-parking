@@ -1,12 +1,3 @@
-#import <CoreLocation/CoreLocation.h>
-
-@interface CLLocationManager (MMEMobileEvents)
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wstrict-prototypes"
-void mme_linkCLLocationManagerCategory();
-#pragma clang diagnostic pop
-
-+ (NSString *)mme_authorizationStatusString;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bc43ca77bdc2f0063a0582766724e8c6a16170777614c192acc9334a193385b
+size 295

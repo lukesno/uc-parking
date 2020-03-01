@@ -1,34 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>RATING_ACCESSIBILITY_SET</key>
-	<dict>
-		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@stars@</string>
-		<key>stars</key>
-		<dict>
-			<key>NSStringFormatSpecTypeKey</key>
-			<string>NSStringPluralRuleType</string>
-			<key>NSStringFormatValueTypeKey</key>
-			<string>ld</string>
-			<key>other</key>
-			<string>등급 %ld-별점평가</string>
-		</dict>
-	</dict>
-	<key>RATING_STARS_FORMAT</key>
-	<dict>
-		<key>NSStringLocalizedFormatKey</key>
-		<string>%#@stars@</string>
-		<key>stars</key>
-		<dict>
-			<key>NSStringFormatSpecTypeKey</key>
-			<string>NSStringPluralRuleType</string>
-			<key>NSStringFormatValueTypeKey</key>
-			<string>ld</string>
-			<key>other</key>
-			<string>%ld 평가 설정.</string>
-		</dict>
-	</dict>
-</dict>
-</plist>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e2c25607564a939dda55206c01f8172a6720102a6fba098e9c5dfa1f8bb78a9
+size 922

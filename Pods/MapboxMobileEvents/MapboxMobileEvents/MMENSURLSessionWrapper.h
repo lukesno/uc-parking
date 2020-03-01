@@ -1,23 +1,3 @@
-#import <Foundation/Foundation.h>
-#import "MMEEventsConfiguration.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-@protocol MMENSURLSessionWrapper <NSObject>
-
-- (void)processRequest:(NSURLRequest *)request completionHandler:(void (^)(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error))completionHandler;
-
-@optional
-
-- (void)reconfigure:(MMEEventsConfiguration *)configuration;
-
-/*! @biref invalidate the session and release it's internal NSURLSession */
-- (void)invalidate;
-
-@end
-
-@interface MMENSURLSessionWrapper : NSObject <MMENSURLSessionWrapper, NSURLSessionDelegate>
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:16ddb2793a9300d760442916b1a04d0ab9fb22a888bca43f61128508862081f1
+size 620

@@ -1,17 +1,3 @@
-#import <UIKit/UIKit.h>
-@import Mapbox;
-@class MGLAnnotationController;
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface MGLAnnotationLayerView : UIView
-
-@property (nonatomic, weak) MGLAnnotationController *annotationController;
-
-- (void)selectAnnotation:(id<MGLFeature>)annotation;
-
-- (void)deselectAnnotation:(id<MGLFeature>)annotation;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:20d54e4af4acf3b29686de6ece2d72b2d23dc212cec573646cfdc8099a548dc6
+size 356

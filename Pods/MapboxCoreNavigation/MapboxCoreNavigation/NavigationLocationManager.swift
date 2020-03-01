@@ -1,28 +1,3 @@
-import Foundation
-import CoreLocation
-#if os(iOS)
-import UIKit
-#endif
-
-/**
- `NavigationLocationManager` is the base location manager which handles permissions and background modes.
- */
-@objc(MBNavigationLocationManager)
-open class NavigationLocationManager: CLLocationManager{
-    
-    override public init() {
-        super.init()
-        
-        requestWhenInUseAuthorization()
-        
-        if Bundle.main.backgroundModes.contains("location") {
-            allowsBackgroundLocationUpdates = true
-        }
-    }
-}
-
-extension NavigationLocationManager: RouterDataSource {
-    public var locationProvider: NavigationLocationManager.Type {
-        return type(of: self)
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9aade252743d9dda5298b8d2a24555e29b38e56f1f7a037886285f76dc6ee31f
+size 682

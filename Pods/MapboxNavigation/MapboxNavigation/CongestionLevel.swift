@@ -1,26 +1,3 @@
-import Foundation
-import MapboxDirections
-#if canImport(CarPlay)
-import CarPlay
-
-extension CongestionLevel {
-    /**
-     Converts a CongestionLevel to a CPTimeRemainingColor.
-     */
-    @available(iOS 12.0, *)
-    public var asCPTimeRemainingColor: CPTimeRemainingColor {
-        switch self {
-        case .unknown:
-            return .default
-        case .low:
-            return .green
-        case .moderate:
-            return .orange
-        case .heavy:
-            return .red
-        case .severe:
-            return .red
-        }
-    }
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:041bd42aafa5ee58090df45ba7a2211c6d37eb334dbad40e3fdcc6cad1294891
+size 559

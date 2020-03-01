@@ -1,35 +1,3 @@
-#import <Foundation/Foundation.h>
-#import "MMEMetrics.h"
-#import "MMEEvent.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface MMEMetricsManager : NSObject
-
-@property (nonatomic, readonly) MMEMetrics *metrics;
-
-+ (instancetype)sharedManager;
-
-- (void)updateSentBytes:(NSUInteger)bytes;
-- (void)updateReceivedBytes:(NSUInteger)bytes;
-- (void)updateMetricsFromEventQueue:(NSArray *)eventQueue;
-- (void)updateMetricsFromEventCount:(NSUInteger)eventCount request:(nullable NSURLRequest *)request error:(nullable NSError *)error;
-- (void)updateConfigurationJSON:(NSDictionary *)configuration;
-- (void)updateCoordinate:(CLLocationCoordinate2D)coordinate;
-- (void)incrementAppWakeUpCount;
-- (void)resetMetrics;
-
-/*! @brief loads any pending telemetry metrics events from ~/Library/Caches */
-- (MMEEvent *)loadPendingTelemetryMetricsEvent;
-
-/*! @brief generates an event with the current telemetry metrics
-    @return nil for pending events, or a telemetry event which is ready to send
-    @discussion if this method returns nil the framework will write the pending telemetry metrics
-    to a file in ~/Library/Caches, this event may be loaded with -loadPendingTelemetryMetricsEvent */
-- (MMEEvent *)generateTelemetryMetricsEvent;
-
-- (NSDictionary *)attributes;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:2371601c1818ac2f84302e9c1291f2c9d43c409b3639da00c9778b2bd2f45869
+size 1271

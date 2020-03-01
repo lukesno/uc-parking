@@ -1,23 +1,3 @@
-#import "MMECategoryLoader.h"
-
-#import "CLLocationManager+MMEMobileEvents.h"
-#import "CLLocation+MMEMobileEvents.h"
-#import "NSData+MMEGZIP.h"
-#if TARGET_OS_IOS || TARGET_OS_TV
-#import "UIKit+MMEMobileEvents.h"
-#endif
-
-@implementation MMECategoryLoader
-
-//forces the classes called by these methods to be included in the binary.
-//used to prevent crashes and simplify installation for developers of the library.
-+ (void)loadCategories {
-    mme_linkCLLocationManagerCategory();
-    mme_linkCLLocationCategory();
-    mme_linkNSDataCategory();
-#if TARGET_OS_IOS || TARGET_OS_TV
-    mme_linkUIKitCategories();
-#endif
-}
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:18883d8845938c644dbbea085d8dda1dde3f1733a4930a30ff12acfc8d1a879a
+size 622

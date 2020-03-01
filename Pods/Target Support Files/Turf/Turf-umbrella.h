@@ -1,17 +1,3 @@
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#else
-#ifndef FOUNDATION_EXPORT
-#if defined(__cplusplus)
-#define FOUNDATION_EXPORT extern "C"
-#else
-#define FOUNDATION_EXPORT extern
-#endif
-#endif
-#endif
-
-#import "Turf.h"
-
-FOUNDATION_EXPORT double TurfVersionNumber;
-FOUNDATION_EXPORT const unsigned char TurfVersionString[];
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b07a4c19c80aea82b236396b6efe9ab21a9d6bd5a876e008908c45c9892fede0
+size 317

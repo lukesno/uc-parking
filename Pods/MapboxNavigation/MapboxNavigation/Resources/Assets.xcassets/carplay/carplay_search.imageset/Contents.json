@@ -1,16 +1,3 @@
-{
-  "images" : [
-    {
-      "idiom" : "universal",
-      "filename" : "carplay_search.pdf"
-    }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "original",
-    "preserves-vector-representation" : true
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6d094885a2e5e9417a5efe2d29fb0035a8170a7576239d65ebca5f0631c1173
+size 278

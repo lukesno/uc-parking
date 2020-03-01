@@ -1,10 +1,3 @@
-import Foundation
-
-extension CGPoint {
-    /**
-     Calculates the straight line distance between two `CGPoint`.
-     */
-    public func distance(to: CGPoint) -> CGFloat {
-        return sqrt((self.x - to.x) * (self.x - to.x) + (self.y - to.y) * (self.y - to.y))
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:841176555eb8ed35e4295f8e4f24122c621968455f12dc34760b9ae3c3557b98
+size 271

@@ -1,6 +1,3 @@
-/* Message confirming that the user has successfully sent feedback */
-"FEEDBACK_THANK_YOU" = "شكرا لك على هذا التقرير!";
-
-/* Title of view controller for sending feedback */
-"FEEDBACK_TITLE" = "أبلِغ عن مشكلة";
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2efb7893fca20650ceca9f30427659bc7c5cc0266d4b2dd047fc0db05917c083
+size 243

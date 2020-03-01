@@ -1,28 +1,3 @@
-import Foundation
-
-
-extension HTTPURLResponse {
-    var rateLimit: UInt? {
-        guard let limit = allHeaderFields["X-Rate-Limit-Limit"] as? String else {
-            return nil
-        }
-        return UInt(limit)
-    }
-    
-    var rateLimitInterval: TimeInterval? {
-        guard let interval = allHeaderFields["X-Rate-Limit-Interval"] as? String else {
-            return nil
-        }
-        return TimeInterval(interval)
-    }
-    
-    var rateLimitResetTime: Date? {
-        guard let resetTime = allHeaderFields["X-Rate-Limit-Reset"] as? String else {
-            return nil
-        }
-        guard let resetTimeNumber = Double(resetTime) else {
-            return nil
-        }
-        return Date(timeIntervalSince1970: resetTimeNumber)
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fae14691589e298d1d201eeeafe1737c281f335ea4da6dac6ceb7ee9baa154d4
+size 758

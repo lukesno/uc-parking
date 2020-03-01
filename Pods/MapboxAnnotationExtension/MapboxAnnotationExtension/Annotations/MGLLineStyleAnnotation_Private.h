@@ -1,20 +1,3 @@
-#import "MGLLineStyleAnnotation.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-FOUNDATION_EXPORT NSString *const MGLPropertyLineJoin;
-FOUNDATION_EXPORT NSString *const MGLPropertyLineBlur;
-FOUNDATION_EXPORT NSString *const MGLPropertyLineColor;
-FOUNDATION_EXPORT NSString *const MGLPropertyLineGapWidth;
-FOUNDATION_EXPORT NSString *const MGLPropertyLineOffset;
-FOUNDATION_EXPORT NSString *const MGLPropertyLineOpacity;
-FOUNDATION_EXPORT NSString *const MGLPropertyLinePattern;
-FOUNDATION_EXPORT NSString *const MGLPropertyLineWidth;
-
-@interface MGLLineStyleAnnotation (Private)
-
-@property (nonatomic, strong) NSMutableDictionary<NSString *, id> *attributes;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d9dca12caee20d931ca449f417784232c350ff0e04268e8d79243588c38a238
+size 669

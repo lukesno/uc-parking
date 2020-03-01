@@ -1,15 +1,3 @@
-{
-  "images" : [
-    {
-      "idiom" : "universal",
-      "filename" : "close.pdf"
-    }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:720a2ff6b6b9375fb0b8684ca3029cf25e44adbb44922609d26509da4565fefe
+size 223

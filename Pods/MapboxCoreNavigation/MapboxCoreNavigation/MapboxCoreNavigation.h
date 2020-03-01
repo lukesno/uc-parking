@@ -1,15 +1,3 @@
-#import <Foundation/Foundation.h>
-
-//! Project version number for MapboxCoreNavigation.
-FOUNDATION_EXPORT double MapboxCoreNavigationVersionNumber;
-
-//! Project version string for MapboxCoreNavigation.
-FOUNDATION_EXPORT const unsigned char MapboxCoreNavigationVersionString[];
-
-#import "MBNavigationSettings.h"
-#import "MBRouteController.h"
-
-/**
- Constant representing the domain in which errors created in this library will live under.
- */
-extern NSString *const MBErrorDomain;
+version https://git-lfs.github.com/spec/v1
+oid sha256:69c275b0eed346d0573d60362285f08b898c63506092513d336a10a73ba4eb9e
+size 479

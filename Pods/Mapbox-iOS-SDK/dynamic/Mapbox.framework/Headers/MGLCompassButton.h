@@ -1,22 +1,3 @@
-#import <UIKit/UIKit.h>
-
-#import "MGLTypes.h"
-
-NS_ASSUME_NONNULL_BEGIN
-
-/**
- A specialized view that displays the current compass heading for its associated map.
- */
-MGL_EXPORT
-@interface MGLCompassButton : UIImageView
-
-/**
- The visibility of the compass button.
-
- You can configure a compass button to be visible all the time or only when the compass heading changes.
- */
-@property (nonatomic, assign) MGLOrnamentVisibility compassVisibility;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0107d30f13b13da6894eb6c21adc91535fdcc8fa40c9bf582b5fc976b412c42
+size 473

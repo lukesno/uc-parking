@@ -1,19 +1,3 @@
-#import "MGLAnnotationController.h"
-
-@class MGLStyleAnnotation;
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface MGLAnnotationController (Private)
-
-@property (nonatomic, strong) NSMutableDictionary<NSString *, MGLStyleAnnotation *> *annotations;
-@property (nonatomic, strong) MGLSource *source;
-@property (nonatomic, strong) MGLStyleLayer *layer;
-
-- (void)initializeLayer;
-- (void)enablePaintProperties:(MGLStyleAnnotation *)styleAnnotation;
-- (void)setPaintProperties;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9cd2aca1d7b5483bafc20c1bdf6f7b7c4122ef196e7d30848c9048df19c6523
+size 487

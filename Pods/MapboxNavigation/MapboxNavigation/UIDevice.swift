@@ -1,19 +1,3 @@
-import Foundation
-import CoreLocation
-#if os(iOS)
-    import UIKit
-#endif
-
-extension UIDevice {
-    
-    /**
-     Returns a `Bool` whether the device is plugged in. Returns false if not an iOS device.
-     */
-    @objc public var isPluggedIn: Bool {
-        #if os(iOS)
-            return [.charging, .full].contains(UIDevice.current.batteryState)
-        #else
-            return false
-        #endif
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7044c095744c9cc4dc975f829c33e3da0f994585a2098a03e3f0aa2f8f2c3b85
+size 410

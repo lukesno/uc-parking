@@ -1,15 +1,3 @@
-{
-  "images" : [
-    {
-      "idiom" : "universal",
-      "filename" : "feedback_closed.pdf"
-    }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "properties" : {
-    "preserves-vector-representation" : true
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b05cba9ae6dcf6c4db7ddc9ba1f6c8586efc08c10f03a55dee0ebf5955b0477
+size 233

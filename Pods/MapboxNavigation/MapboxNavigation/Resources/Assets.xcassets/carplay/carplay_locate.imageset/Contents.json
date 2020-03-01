@@ -1,16 +1,3 @@
-{
-  "images" : [
-    {
-      "idiom" : "universal",
-      "filename" : "carplay_locate.pdf"
-    }
-  ],
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "original",
-    "preserves-vector-representation" : true
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:29cf591df5b60071083873f32b0b28a413ef7e0d02b9fbf08c50fe75af4f5013
+size 278

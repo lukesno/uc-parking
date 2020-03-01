@@ -1,20 +1,3 @@
-#import <Foundation/Foundation.h>
-#import "MMEEventsConfiguration.h"
-#import "MMEAPIClient.h"
-
-@protocol MMEConfiguratorDelegate <NSObject>
-
-- (void)configurator:(id)updater didUpdate:(MMEEventsConfiguration *)configuration;
-
-@end
-
-@interface MMEConfigurator : NSObject
-
-- (instancetype)init NS_UNAVAILABLE;
-- (instancetype)initWithTimeInterval:(NSTimeInterval)timeInterval NS_DESIGNATED_INITIALIZER;
-- (void)updateConfigurationFromAPIClient:(MMEAPIClient *)apiClient;
-
-@property (nonatomic) NSTimeInterval timeInterval;
-@property (nonatomic, weak) id <MMEConfiguratorDelegate> delegate;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ba641e4efb882681cb65983ee1aaa080d05b3be7a9f47682cc4bf6bfc06421f
+size 594

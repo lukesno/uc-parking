@@ -1,36 +1,3 @@
-import Foundation
-
-/**
- Enum used for indicating the type of error occured while speaking an instruction.
- */
-public enum SpokenInstructionErrorCode: Int {
-    /**
-     Default error.
-     */
-    case unknown = -1
-    
-    /**
-     The audio player failed to play audio data.
-     */
-    case audioPlayerFailedToPlay
-    
-    /**
-     The response did not include data.
-     */
-    case emptyMapboxSpeechResponse
-}
-
-/**
- High level error type.
- */
-public enum MBErrorCode: Int {
-    /**
-     Unknown type of error.
-     */
-    case unknown
-    
-    /**
-     A spoken instruction failed to be read aloud.
-     */
-    case spokenInstructionFailed
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:44b386fffe7ae0561be8de51e9db8726978afefa1df667d6b4c31486c9d60be1
+size 647

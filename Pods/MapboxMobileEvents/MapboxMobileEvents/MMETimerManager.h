@@ -1,14 +1,3 @@
-#import <Foundation/Foundation.h>
-
-@interface MMETimerManager : NSObject
-
-@property (nonatomic, readonly) NSTimeInterval timeInterval;
-@property (nonatomic, readonly) id target;
-@property (nonatomic, readonly) SEL selector;
-
-- (instancetype)initWithTimeInterval:(NSTimeInterval)timeInterval target:(id)aTarget selector:(SEL)selector;
-
-- (void)start;
-- (void)cancel;
-
-@end
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba0bac966c62de7d8684afa8fd776d9d4a8ce321cf56742eece3e1edbdcdfd0c
+size 372

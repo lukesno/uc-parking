@@ -1,9 +1,3 @@
-
-@objc public protocol NavigationInteractionDelegate: class {
-    
-    @objc optional func navigationViewController(_ controller: NavigationViewController, didRecenterAt location: CLLocation)
-    @objc optional func navigationViewControllerDidConnectCarPlay(_ controller: NavigationViewController)
-    @objc optional func navigationViewControllerDidDisconnectCarPlay(_ controller: NavigationViewController)
-    @objc optional func showStatus(title: String, withSpinner: Bool, for time: TimeInterval, animated: Bool, interactive: Bool)
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4cfb66d886803bcb1e6049099b817ce2221948e17ce1facfed3199ecb2ad66c
+size 538

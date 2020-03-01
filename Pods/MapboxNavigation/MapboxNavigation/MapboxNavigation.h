@@ -1,10 +1,3 @@
-#import <UIKit/UIKit.h>
-
-//! Project version number for MapboxNavigation.
-FOUNDATION_EXPORT double MapboxNavigationVersionNumber;
-
-//! Project version string for MapboxNavigation.
-FOUNDATION_EXPORT const unsigned char MapboxNavigationVersionString[];
-
-#import "MBConstants.h"
-#import "MGLMapView+MGLNavigationAdditions.h"
+version https://git-lfs.github.com/spec/v1
+oid sha256:1330a33b0a86689f253fab5ee64767d5f10121988902d151617a9d92c94847ab
+size 322

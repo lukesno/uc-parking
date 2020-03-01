@@ -1,22 +1,3 @@
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-#import "MMETypes.h"
-
-@class MMEEvent;
-
-NS_ASSUME_NONNULL_BEGIN
-
-@interface MMEEventLogger : NSObject
-
-@property (nonatomic, getter=isEnabled) BOOL enabled;
-
-+ (instancetype)sharedLogger;
-
-- (void)logEvent:(MMEEvent *)event;
-- (void)readAndDisplayLogFileFromDate:(NSDate *)logDate;
-- (void)pushDebugEventWithAttributes:(MMEMapboxEventAttributes *)attributes;
-
-@end
-
-NS_ASSUME_NONNULL_END
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:19c68b5d665f33ce9cbb243515f2fe8e65c841d91d444526a214dc32b1beaa45
+size 447

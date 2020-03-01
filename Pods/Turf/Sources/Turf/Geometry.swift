@@ -1,24 +1,3 @@
-import Foundation
-#if !os(Linux)
-import CoreLocation
-#endif
-
-
-public enum GeometryType: String {
-    case Point
-    case LineString
-    case Polygon
-    case MultiPoint
-    case MultiLineString
-    case MultiPolygon
-    
-    static let allValues: [GeometryType] = [.Point, .LineString, .Polygon, .MultiPoint, .MultiLineString, .MultiPolygon]
-}
-
-public struct Geometry: Codable {
-    public var type: String
-    
-    public var geometryType: GeometryType? {
-        return GeometryType(rawValue: type)
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b347e13c36e57490a62494c53f94bd810f1106b7af73b0aa9fee591c3960660a
+size 509

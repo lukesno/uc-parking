@@ -1,12 +1,3 @@
-{
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "data" : [
-    {
-      "idiom" : "universal",
-      "filename" : "reroute-sound.mp3"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:025517a7b73fc01b24cf646847a3d1576dff92b7348a21ddc154446a969d6a43
+size 160
