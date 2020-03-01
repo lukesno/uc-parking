@@ -425,7 +425,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 one.fillOutlineColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
                 one.fillOpacity = 0.3
                 one.title = "Paid Parking"
-                one.subtitle = "$8/hr"
+                one.subtitle = "$8/day"
                 polygonAnnotationController.addStyleAnnotation(one)
 
     
@@ -444,7 +444,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 two.fillOutlineColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
                 two.fillOpacity = 0.3
                 two.title = "Paid Parking"
-                two.subtitle = "$8/hr"
+                two.subtitle = "$8/day"
                 polygonAnnotationController.addStyleAnnotation(two)
         
         
@@ -463,7 +463,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 eight.fillOutlineColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
                 eight.fillOpacity = 0.3
                 eight.title = "Paid Parking"
-                eight.subtitle = "$8/hr"
+                eight.subtitle = "$8/day"
                 polygonAnnotationController.addStyleAnnotation(eight)
         
         
@@ -483,7 +483,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 twelve.fillOutlineColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
                 twelve.fillOpacity = 0.3
                 twelve.title = "Paid Parking"
-                twelve.subtitle = "$8/hr"
+                twelve.subtitle = "$8/day"
                 polygonAnnotationController.addStyleAnnotation(twelve)
         
         
@@ -502,7 +502,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 thirteen.fillOutlineColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
                 thirteen.fillOpacity = 0.3
                 thirteen.title = "Paid Parking"
-                thirteen.subtitle = "$8/hr"
+                thirteen.subtitle = "$8/day"
                 polygonAnnotationController.addStyleAnnotation(thirteen)
         
         
@@ -523,7 +523,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 three.fillOutlineColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
                 three.fillOpacity = 0.3
                 three.title = "Paid Parking"
-                three.subtitle = "$8/hr, public after 3:30"
+                three.subtitle = "$8/day, public after 3:30"
                 polygonAnnotationController.addStyleAnnotation(three)
         
         
@@ -542,7 +542,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 four.fillOutlineColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
                 four.fillOpacity = 0.3
                 four.title = "Paid Parking"
-                four.subtitle = "$8/hr, public after 3:30"
+                four.subtitle = "$8/day, public after 3:30"
                 polygonAnnotationController.addStyleAnnotation(four)
         
         
@@ -561,7 +561,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 six.fillOutlineColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
                 six.fillOpacity = 0.3
                 six.title = "Paid Parking"
-                six.subtitle = "$8/hr, public after 3:30"
+                six.subtitle = "$8/day, public after 3:30"
                 polygonAnnotationController.addStyleAnnotation(six)
         
         
@@ -580,7 +580,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 seven.fillOutlineColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
                 seven.fillOpacity = 0.3
                 seven.title = "Paid Parking"
-                seven.subtitle = "$8/hr, public after 3:30"
+                seven.subtitle = "$8/day, public after 3:30"
                 polygonAnnotationController.addStyleAnnotation(seven)
         
                 //9
@@ -598,7 +598,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 nine.fillOutlineColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
                 nine.fillOpacity = 0.3
                 nine.title = "Paid Parking"
-                nine.subtitle = "$8/hr, public after 3:30"
+                nine.subtitle = "$8/day, public after 3:30"
                 polygonAnnotationController.addStyleAnnotation(nine)
         
         
@@ -617,7 +617,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 ten.fillOutlineColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
                 ten.fillOpacity = 0.3
                 ten.title = "Paid Parking"
-                ten.subtitle = "$8/hr, public after 3:30"
+                ten.subtitle = "$8/day, public after 3:30"
                 polygonAnnotationController.addStyleAnnotation(ten)
         
         
@@ -636,7 +636,7 @@ extension ViewController { //Placed in annotation data placed in Database.swift,
                 eleven.fillOutlineColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
                 eleven.fillOpacity = 0.3
                 eleven.title = "Paid Parking"
-                eleven.subtitle = "$8/hr, public after 3:30"
+                eleven.subtitle = "$8/day, public after 3:30"
                 polygonAnnotationController.addStyleAnnotation(eleven)
     }
 }
